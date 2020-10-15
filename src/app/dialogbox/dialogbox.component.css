@@ -1,0 +1,13 @@
+img {
+  height: auto;
+  width: 25em;
+
+}
+
+mat-icon.mat-icon.notranslate.material-icons.mat-icon-no-color {
+  color: #ff2c2b;
+}
+
+button.mat-focus-indicator.mat-raised-button.mat-button-base.mat-warn {
+  margin-bottom: 5%;
+}

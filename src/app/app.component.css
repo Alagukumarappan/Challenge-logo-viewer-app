@@ -1,0 +1,20 @@
+mat-toolbar.mat-toolbar.mat-toolbar-single-row {
+  background-color: #d4e7fe;
+  font-family: Montserrat, sans-serif;
+}
+
+mat-toolbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+}
+
+h1{
+  text-transform: uppercase;
+
+}

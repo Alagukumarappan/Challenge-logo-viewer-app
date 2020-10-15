@@ -1,0 +1,19 @@
+.mat-expansion-panel-header-description {
+  flex-grow: 0 !important;
+}
+
+mat-panel-title.mat-expansion-panel-header-title   {
+  font-weight: bold;
+}
+mat-icon.mat-icon.notranslate.material-icons.mat-icon-no-color {
+  color: #ff2c2b;
+  float: right;
+}
+
+a {
+  width: 100%;
+}
+
+mat-card.mat-card.mat-focus-indicator:hover {
+  background: #64a1ec;
+}

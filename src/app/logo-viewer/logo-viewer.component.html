@@ -1,0 +1,27 @@
+<br>
+<div class="wholeBlock" *ngFor="let challenge of challenges">
+<mat-card>
+  <mat-card-title>
+    <a type="button"  (click)="openDialog(challenge)">
+      <h1>{{challenge.node.title[0].text}}
+        <mat-icon
+      *ngIf="challenge.selected"
+      aria-label="Example icon-button with a heart icon">
+      favorite
+    </mat-icon>
+    <mat-icon
+      *ngIf="!challenge.selected"
+      aria-label="Example icon-button with a heart icon">
+      favorite_border
+    </mat-icon>
+      </h1>
+  </a>
+  </mat-card-title>
+  <mat-card-content>
+    <a type="button"  (click)="openDialog(challenge)">
+      <p *ngFor="let teaserText of challenge.node.teaser">{{ teaserText.text }} </p>
+    </a>
+  </mat-card-content>
+</mat-card>
+<br>
+</div>
